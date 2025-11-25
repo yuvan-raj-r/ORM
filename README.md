@@ -32,14 +32,14 @@ Apply the migration files of the created app to the database
 Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
-'''
+```
 admin.py
 
 from django.contrib import admin
 from .models import product,productAdmin 
 admin.site.register(product,productAdmin)
-'''
-'''
+```
+```
 models.py
 
 from django.db import models
@@ -55,9 +55,7 @@ class product(models.Model):
     
 class productAdmin(admin.ModelAdmin):
     list_display=["product_id","name","price","description","mfc_date","seller_id","brand"]
-'''
-
-
+```
 
 
 ## OUTPUT
