@@ -38,11 +38,9 @@ from django.contrib import admin
 from .models import product,productAdmin 
 admin.site.register(product,productAdmin)
 ```
-<<<<<<< HEAD
-=======
+
 ```
 models.py
->>>>>>> 54f4dc0bbbdeca8f77d759503ef6b1f681cd3bf3
 
 ```
 models.py
@@ -60,15 +58,9 @@ class product(models.Model):
 class productAdmin(admin.ModelAdmin):
     list_display=["product_id","name","price","description","mfc_date","seller_id","brand"]
 ```
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 54f4dc0bbbdeca8f77d759503ef6b1f681cd3bf3
-
 
 ## OUTPUT
-![alt text](<Screenshot 2025-11-22 114311.png>)
+![alt text](<c:\Users\acer\ORM\Screenshot 2025-11-22 114311.png>)
 
 
 
