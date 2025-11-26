@@ -42,8 +42,6 @@ admin.site.register(product,productAdmin)
 ```
 models.py
 
-```
-models.py
 from django.db import models
 from django.contrib import admin
 class product(models.Model):
@@ -60,7 +58,7 @@ class productAdmin(admin.ModelAdmin):
 ```
 
 ## OUTPUT
-![alt text](<c:\Users\acer\ORM\Screenshot 2025-11-22 114311.png>)
+![alt text](<Screenshot 2025-11-22 114311-1.png>)
 
 
 
